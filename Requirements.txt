@@ -1,0 +1,4 @@
+asyncio
+serial_asyncio
+pyserial
+random

@@ -1,0 +1,18 @@
+Sensors:
+  - Name: "TEMP"
+    Min: 10
+    Max: 20
+    Unit: "C"
+  - Name: "PRESS"
+    Min: 900
+    Max: 1200
+    Unit: "hPA"
+  - Name: "HUM"
+    Min: 30
+    Max: 60
+    Unit: "%"
+Serial:
+  ReadPort: "COM10"
+  WritePort: "COM11"
+  BaudRate: 115200
+  Interval: 1.0
