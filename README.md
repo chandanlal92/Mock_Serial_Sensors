@@ -24,7 +24,7 @@
 
     ```sh
     pip install -r Requirements.txt
-    ```sh
+    ```
 # Configuration of Software
 
 1. Setup Sensor Configuration and Serial Port Configuration in SerialConfig.yaml files.
@@ -39,7 +39,8 @@
 1. open Command Prompt in administrator mode.
 2. Navigate to the Sensor Simulator folder
 3. Run python script
-´´´sh
+
+```sh
     python SerialApp.py
-´´´sh
+```
 
