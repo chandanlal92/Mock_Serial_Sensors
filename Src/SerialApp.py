@@ -12,7 +12,7 @@ from SerialReader import SerialReader
 from KeyPressHandler import keyPressHandler
 import yaml
 
-with open("SensorConfig.yaml", 'r') as config_file:
+with open("../Config/SensorConfig.yaml", 'r') as config_file:
     config = yaml.safe_load(config_file)
 
 READ_PORT=config["Serial"]["ReadPort"]
